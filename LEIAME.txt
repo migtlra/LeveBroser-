@@ -1,0 +1,14 @@
+COMO GERAR O .EXE PELO GITHUB
+1. Crie um repositorio novo no GitHub (pode ser privado).
+2. Envie TODOS estes arquivos, mantendo a pasta .github/workflows/build.yml
+   (se o upload esconder a pasta, crie o arquivo em "Add file > Create new file"
+   digitando o caminho .github/workflows/build.yml e colando o conteudo).
+3. Va na aba "Actions". O build roda sozinho (ou clique em "Run workflow").
+4. Ao terminar, baixe os artefatos: LeveBrowser-x86 (32 bits) e LeveBrowser-x64 (64 bits).
+5. Extraia a pasta inteira e rode LeveBrowser.exe (precisa dos .dll junto).
+
+REQUISITOS NO PC
+- WebView2 Runtime instalado (no Tiny10 de 32 bits, a versao x86).
+- .NET Framework 4.8 (ja vem no Windows 10 comum).
+
+Se o build der erro, copie o log e mande para o Claude corrigir.
